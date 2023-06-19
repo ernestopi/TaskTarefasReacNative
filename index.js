@@ -1,5 +1,6 @@
+
+
 import registerRootComponent from 'expo/build/launch/registerRootComponent';
+import Navigator from './src/Navigator';
 
-import Tasklist from './src/screens/TaskList';
-
-registerRootComponent(Tasklist);
+registerRootComponent(Navigator);

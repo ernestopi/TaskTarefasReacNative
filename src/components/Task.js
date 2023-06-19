@@ -30,7 +30,7 @@ export default props => {
             <TouchableOpacity style={styles.right} 
                 onPress={() => props.onDelete && props.onDelete(props.id)}>
                 <Icon name="trash" size={30} color='#FFF'
-                style={styles.excludeIcon} />
+                    style={styles.excludeIcon} />
             </TouchableOpacity>
         )
 
@@ -40,7 +40,7 @@ export default props => {
         return (
             <View style={styles.left} >
                 <Icon name="trash" size={20} color='#FFF' 
-                style={styles.excludeIconLeft}/>
+                    style={styles.excludeIconLeft}/>
                 <Text style={styles.excludeText} >Excluir</Text>
             </View>
         )
